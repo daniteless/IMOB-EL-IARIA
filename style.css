@@ -1,6 +1,8 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #f3f3b1;
+    font-family: 'Inter', sans-serif;
 }
 
 nav {
@@ -12,7 +14,7 @@ nav {
     gap: 15px
 }
 
-nav a {
+nav .link {
     background-color: #BE3D3D;
     border: none;
     color: white;
@@ -21,6 +23,26 @@ nav a {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+    height: 20px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 20px;
+    position: relative;
+    left: -3%;
+
+}
+
+nav .link:hover{
+    background-color: blanchedalmond;
+    transition: 0.5s;
+}
+
+.img-logo {
+    height: 100px;
+    left: -400px;
+    position: relative;
 }
 
 #titulo_homepage {
@@ -43,6 +65,7 @@ nav a {
     border-color: white;
     text-decoration: none;
     color: rgb(20, 20, 20);
+    
 }
 
 #blocos-container {
@@ -50,6 +73,14 @@ nav a {
     display: flex;
     justify-content: center;
     flex-direction: row;
+}
+
+.blocos:hover{
+    transition: 0.3s;
+    box-shadow: 3px 8px 20px 0px rgba(0,0,0,0.62);
+-webkit-box-shadow: 3px 8px 20px 0px rgba(0,0,0,0.62);
+-moz-box-shadow: 3px 8px 20px 0px rgba(0,0,0,0.62);
+
 }
 
 #blocos-container img{
